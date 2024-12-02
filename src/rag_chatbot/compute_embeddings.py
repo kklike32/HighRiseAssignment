@@ -5,12 +5,13 @@ import numpy as np
 import openai
 import os
 from tqdm import tqdm
+from openai import OpenAI
 
 def compute_embeddings(data_file='data/rag_processed_faq_data.json', embeddings_file='data/faq_embeddings.npy'):
-    openai.api_key = os.getenv('OPENAI_API_KEY')
-    if not openai.api_key:
+    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+    if not client.api_key:
         raise ValueError("Please set your OpenAI API key as an environment variable 'OPENAI_API_KEY'.")
-
+    
     # Load preprocessed data
     with open(data_file, 'r', encoding='utf-8') as f:
         faq_data = json.load(f)

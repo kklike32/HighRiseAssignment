@@ -8,6 +8,7 @@ import faiss
 import re
 import sys
 import os
+from openai import OpenAI
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
@@ -21,9 +22,7 @@ class Chatbot:
         self.load_data()
         self.load_embeddings()
         self.load_faiss_index()
-        openai.api_key = os.getenv('OPENAI_API_KEY')
-        if not openai.api_key:
-            raise ValueError("Please set your OpenAI API key as an environment variable 'OPENAI_API_KEY'.")
+        self.client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
         setup_logging()
 
     def load_data(self):
@@ -46,7 +45,7 @@ class Chatbot:
         return query
 
     def get_query_embedding(self, query):
-        response = openai.embeddings.create(
+        response = self.client.embeddings.create(
             input=query,
             model="text-embedding-ada-002"
         )
@@ -69,7 +68,7 @@ class Chatbot:
         context = "\n\n".join([f"Q: {faq['title']}\nA: {faq['content']}" for faq in relevant_faqs])
         prompt = "You are a helpful assistant for Highrise app users. Provide clear and concise answers to the user's question using the context provided. If the answer is not in the context, politely inform the user."
         try:
-            response = openai.chat.completions.create(
+            response = self.client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": prompt},
@@ -81,7 +80,7 @@ class Chatbot:
                 frequency_penalty=0,
                 presence_penalty=0
             )
-            answer = response.choices[0].text.strip()
+            answer = response.choices[0].message.content.strip()
             return answer
         except Exception as e:
             print(f"Error generating response: {e}")
@@ -93,7 +92,7 @@ class Chatbot:
             return "Hello! How can I assist you today?", True
         if is_farewell(user_query):
             return "Goodbye! Feel free to come back if you have more questions.", True
-
+ 
         processed_query = self.preprocess_query(user_query)
         query_embedding = self.get_query_embedding(processed_query)
         relevant_faqs = self.retrieve_relevant_faqs(query_embedding, k=3)

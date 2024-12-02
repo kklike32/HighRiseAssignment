@@ -22,3 +22,23 @@
 2024-12-01 23:48:15,815 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-12-01 23:48:15,824 - 2024-12-01T23:48:15.824741 - User: how much does the new iPhone cost? | Chatbot: I'm sorry, I'm having trouble generating a response right now.
 2024-12-01 23:48:27,731 - 2024-12-01T23:48:27.731701 - User: exit | Chatbot: Goodbye! Feel free to come back if you have more questions.
+2024-12-02 00:09:54,209 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 00:09:56,245 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 00:09:56,252 - 2024-12-02T00:09:56.252722 - User: how much does the new iPhone cost? | Chatbot: I'm sorry, I'm having trouble generating a response right now.
+2024-12-02 00:10:06,337 - 2024-12-02T00:10:06.337800 - User: exit | Chatbot: Goodbye! Feel free to come back if you have more questions.
+2024-12-02 00:15:37,461 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 00:15:38,349 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 00:15:38,356 - 2024-12-02T00:15:38.356481 - User: how much does the new iPhone cost? | Chatbot: I'm sorry, but I don't have information on the cost of the new iPhone. You might want to check the official Apple website or your local retailer for the most accurate pricing.
+2024-12-02 00:16:05,624 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 00:16:07,032 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 00:16:07,034 - 2024-12-02T00:16:07.034619 - User: how can i see what i voted for? | Chatbot: Right now, we do not have a system in place for retaining an index of your votes, so you won't be able to see what you've voted for. Additionally, there is no option to rescind a vote or bookmark entries to revisit later.
+2024-12-02 00:16:48,680 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 00:16:50,412 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 00:16:50,417 - 2024-12-02T00:16:50.417232 - User: i got hacked, how can i seek help? | Chatbot: If your account has been compromised, you can seek help by contacting Highrise support. However, please note that if you did not activate the Safety Lock feature, any items lost cannot be returned. Make sure to provide them with all necessary information regarding your account to assist in the recovery process.
+2024-12-02 00:17:52,688 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 00:17:54,107 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 00:17:54,109 - 2024-12-02T00:17:54.109114 - User: how can i change the room category? what are the limits to how many times i can change it? | Chatbot: To change the room category, you can access the category menu when creating a new room or editing an existing room. There are no limits to how many times you can change a room's category or subcategory; you can change them as many times as you'd like!
+2024-12-02 00:18:10,149 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 00:18:10,770 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 00:18:10,771 - 2024-12-02T00:18:10.771326 - User: thanks, bye | Chatbot: You're welcome! If you have any more questions in the future, feel free to ask. Bye!
+2024-12-02 00:18:16,302 - 2024-12-02T00:18:16.302342 - User: exit | Chatbot: Goodbye! Feel free to come back if you have more questions.
