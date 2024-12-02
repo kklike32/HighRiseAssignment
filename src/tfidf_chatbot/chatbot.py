@@ -1,4 +1,4 @@
-# src/chatbot.py
+# src/tfidf_chatbot/chatbot.py
 
 import json
 import numpy as np

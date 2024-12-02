@@ -1,4 +1,4 @@
-# src/utils.py
+# src/tfidf_chatbot/utils.py
 
 import logging
 import os

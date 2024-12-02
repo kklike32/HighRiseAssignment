@@ -1,4 +1,4 @@
-# src/synonyms.py
+# src/tfidf_chatbot/synonyms.py
 
 from nltk.corpus import wordnet
 import nltk

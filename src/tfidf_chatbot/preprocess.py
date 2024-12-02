@@ -1,4 +1,4 @@
-# src/preprocess.py
+# src/tfidf_chatbot/preprocess.py
 
 import json
 import re

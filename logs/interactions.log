@@ -14,3 +14,11 @@
 2024-12-01 21:54:32,165 - INFO - Chatbot Response: Did you ever dream of becoming a bubble mogul? Well, in Highrise, you can! Use these whimsical orbs to spin for rare items or jazz up your digital den. Here's how to inflate your bubble collection without blowing hot air: Goal Getter : Think of Daily Goals as your bubble-infused to-do list. Every time you check one off, we'll gift you bubbles. Finish them all? You're in for a bonus! Find these on the goals icon in your homeroom. Gift Grabber : Who said there's no such thing as free bubbles? Click the Bubbles icon in your homeroom for a daily gift. Feeling greedy? Watch some ads and we'll shower you with more! Crewmate's Charm : Crewmates are the friends who gift bubbles (and sometimes gold!) every time they buy some shiny stuff. Find these in your gifts section. Spare Seller : Duplicate items? Old stuff you don't need? Sell 'em for bubbles! You can even pawn untradeable items at the Welcome Plaza. It's like spring cleaning, but more lucrative! So, get out there and start bubble hunting. And remember, in Highrise, a bubble in the hand is worth two in the... well, anywhere!
 2024-12-01 21:54:48,033 - INFO - User Query: exit
 2024-12-01 21:54:48,034 - INFO - Chatbot Response: Goodbye! Feel free to come back if you have more questions.
+2024-12-01 23:42:24,771 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-01 23:44:18,094 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-01 23:44:18,110 - 2024-12-01T23:44:18.110722 - User: how much does the new iPhone cost? | Chatbot: I'm sorry, I'm having trouble generating a response right now.
+2024-12-01 23:45:09,054 - 2024-12-01T23:45:09.054810 - User: exit | Chatbot: Goodbye! Feel free to come back if you have more questions.
+2024-12-01 23:48:14,415 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-01 23:48:15,815 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-01 23:48:15,824 - 2024-12-01T23:48:15.824741 - User: how much does the new iPhone cost? | Chatbot: I'm sorry, I'm having trouble generating a response right now.
+2024-12-01 23:48:27,731 - 2024-12-01T23:48:27.731701 - User: exit | Chatbot: Goodbye! Feel free to come back if you have more questions.

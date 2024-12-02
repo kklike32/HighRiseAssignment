@@ -1,4 +1,4 @@
-# src/main.py
+# src/tfidf_chatbot/main.py
 
 from chatbot import Chatbot
 from utils import log_interaction
