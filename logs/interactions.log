@@ -42,3 +42,42 @@
 2024-12-02 00:18:10,770 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-12-02 00:18:10,771 - 2024-12-02T00:18:10.771326 - User: thanks, bye | Chatbot: You're welcome! If you have any more questions in the future, feel free to ask. Bye!
 2024-12-02 00:18:16,302 - 2024-12-02T00:18:16.302342 - User: exit | Chatbot: Goodbye! Feel free to come back if you have more questions.
+2024-12-02 00:49:44,819 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 00:49:46,040 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 00:49:46,053 - 2024-12-02T00:49:46.053370 - User: What are the specs of iPhone 16? | Chatbot: I'm sorry, but I don't have information on the specs of the iPhone 16. You might want to check Apple's official website or other reliable sources for the latest details.
+2024-12-02 00:50:16,033 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 00:50:18,104 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 00:50:18,108 - 2024-12-02T00:50:18.108111 - User: what are grab tokens? | Chatbot: Grab Tokens are your fun pass to the world of Grabs! There are two types: the gold Grab Token, which you can use to spin and trade the items you win, and the silver Promo Token, which gives you items that are bound to your account (no trading or transferring). If you run out of tokens, you can use gold for spins to keep the fun going. However, some grabs only accept gold or bubbles, so Grab Tokens won't work for those.
+2024-12-02 01:04:48,445 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:04:50,036 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:07:04,802 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:07:05,685 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:07:10,371 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:07:11,269 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:07:34,282 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:07:36,807 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:08:11,437 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:08:12,877 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:13:01,433 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:13:03,696 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:13:36,061 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:13:40,164 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:13:40,172 - 2024-12-02T01:13:40.172730 - User: What are Directory Categories? | Chatbot: Directory Categories allow you to sort rooms into different categories and then view those categories in the room directory. There are currently three categories: Chat, Games, and Trade. Each of these categories is divided into subcategories: 
+
+- Chat: Hangout, Roleplaying, Other 
+- Games: Pageant, Color Run, Blocks, Cross the Line, Mafia, Races, Other 
+- Trade: Auction, Storefront, User Grabs, Other 
+
+Directory Categories do not affect gameplay, meaning you can continue to do whatever you want in these rooms. For example, you can still trade in a game room or host pageants in a trade room. The categories simply make it easier for you and other players to find rooms of interest. You can access the category menu when creating a new room or editing an existing room.
+2024-12-02 01:19:43,550 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:19:47,766 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:19:47,773 - 2024-12-02T01:19:47.773749 - User: what are crew rooms? | Chatbot: Crew Rooms are like your favorite hangout spot, customized by your crew. They serve as a shared clubhouse where crew members can collaborate on projects, hang out, and participate in build competitions. To create a Crew Room, you can go to the Room Directory, tap on "My Rooms," and then select the "Crew Rooms" tab. From there, you'll find the option to "Add Room." Each crew member co-owns the room, allowing everyone to contribute to its design while managing access and settings. Just remember, while you can move furniture around, only the owner can remove it!
+2024-12-02 01:20:14,741 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:20:16,046 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:20:16,049 - 2024-12-02T01:20:16.049036 - User: can you tell me about the latest apple watch? | Chatbot: I'm sorry, I couldn't find an answer to your question. I suggest checking the Highrise FAQ website for more information.
+2024-12-02 01:21:52,797 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:21:54,555 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:21:54,558 - 2024-12-02T01:21:54.558960 - User: how can i add more furniture? | Chatbot: To add more furniture, you need to enter design mode in a room where you have design rights. Click the pencil and ruler icon in the top right corner of your screen. A menu will pop up at the bottom, showing your collection of furniture. You can filter your furniture and walls/floors using the icons next to 'all', or you can search for a specific item by typing its name in the search bar. Once you find the furniture you want, simply drag and drop it into your room to arrange it as you like. Enjoy decorating!
+2024-12-02 01:22:52,212 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-02 01:22:52,801 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-02 01:22:52,802 - 2024-12-02T01:22:52.802629 - User: can you tell me about the latest apple watch? | Chatbot: I'm sorry, I couldn't find an answer to your question. I suggest checking the Highrise FAQ website for more information.

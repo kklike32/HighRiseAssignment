@@ -66,7 +66,10 @@ class Chatbot:
 
     def generate_response(self, user_query, relevant_faqs):
         context = "\n\n".join([f"Q: {faq['title']}\nA: {faq['content']}" for faq in relevant_faqs])
-        prompt = "You are a helpful assistant for Highrise app users. Provide clear and concise answers to the user's question using the context provided. If the answer is not in the context, politely inform the user."
+        prompt = f"""You are a helpful assistant for Highrise app users.
+
+        Use the context below to answer the user's question. If you don't know the answer, or if the answer is not in the context, say "I'm sorry, I couldn't find an answer to your question." and politely suggest the user check the Highrise FAQ website."""
+        
         try:
             response = self.client.chat.completions.create(
                 model="gpt-4o-mini",
@@ -99,7 +102,14 @@ class Chatbot:
 
         if relevant_faqs:
             answer = self.generate_response(user_query, relevant_faqs)
-            return answer, True
+
+            # Determine if the answer indicates that the assistant couldn't find the answer
+            if "couldn't find an answer" in answer or "could not find an answer" in answer or "don't know the answer" in answer:
+                matched = False
+            else:
+                matched = True
+
+            return answer, matched
         else:
             response = "I'm sorry, I couldn't find an answer to your question. Please try rephrasing it or check the Highrise FAQ website."
-            return response, False
+            return response, False        
