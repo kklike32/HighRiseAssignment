@@ -1,6 +1,6 @@
 # Highrise FAQ Chatbot
 
-This project is a prototype of an FAQ chatbot designed to assist users with questions about the Highrise app. The chatbot can answer user queries by providing relevant responses from the Highrise FAQ section found at [https://support.highrise.game/en/](https://support.highrise.game/en/).
+This project is a prototype of an FAQ chatbot designed to assist users with questions about the Highrise app. The chatbot can answer user queries by providing relevant responses from the Highrise FAQ section found at [https://support.highrise.game/en/](https://support.highrise.game/en/). The chatbot's web application can be found at [https://highrisechatbot.streamlit.app](https://highrisechatbot.streamlit.app).
 
 **Author**: Keenan Kalra  
 **Date**: December 2024  
@@ -11,9 +11,9 @@ This project is a prototype of an FAQ chatbot designed to assist users with ques
 - [Setup Instructions](#setup-instructions)
 - [How to Run the Chatbot](#how-to-run-the-chatbot)
   - [Running Locally](#running-locally)
-   - [TF-IDF Chatbot](#tf-idf-chatbot)
-   - [RAG Chatbot](#rag-chatbot)
-   - [Running the Web App Locally](#running-the-web-app-locally)
+    - [TF-IDF Chatbot](#tf-idf-chatbot)
+    - [RAG Chatbot](#rag-chatbot)
+    - [Running the Web App Locally](#running-the-web-app-locally)
   - [Using the Web App](#using-the-web-app)
 - [Features Implemented](#features-implemented)
 - [Logging and Reporting](#logging-and-reporting)
